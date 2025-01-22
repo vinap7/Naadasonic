@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Naadasonic</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+	
+	  <div class="video-container">
+        <video autoplay muted loop playsinline>
+            <source src="assets/hero.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay">
+            <h1>Naadasonic Foundation</h1>
+            <p>Academy of Hindustani Classical Music</p>
+        </div>
+    </div>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#About" class="active">About Guru</a></li>
+							<li><a href="#Concerts">Concerts</a></li>
+							<li><a href="#Testimony">Testimony</a></li>
+							<li><a href="#Classes">Classes</a></li>
+							
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="About" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>About Guru</h2>
+										</header>
+										<p>The Naadasonic Foundation, founded by Melbourne-based vocalist Ranjitha Suresh, stands as a beacon for nurturing and inspiring classical vocalists across Australia. A senior disciple of the renowned Sri Koushik Aithal, Ranjitha embodies the rich traditions of the Kirana, Gwalior, and Patiala Gharanas through her performances and teaching, preserving and celebrating their profound cultural heritage.
+<br>
+<br>Learning Hindustani Classical Music through the Naadasonic Foundation transcends the boundaries of conventional music education, offering a transformative journey of self-discovery and creative exploration. Rooted in the traditional Guru-Shishya Parampara, this approach fosters a deep and dynamic exchange of knowledge, empowering the next generation of vocalists to carry forward this timeless art form.
+<br>
+<br>Embark on this enriching journey, where personal growth meets disciplined sadhana, creating a ripple of positivity that extends far beyond the realm of music, enriching communities and inspiring harmony in the world.</p>
+										<ul class="actions">
+											<li><a href="generic.html" class="button">Learn More</a></li>
+										</ul>
+									</div>
+									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+								</div>
+							</section>
+
+						<!-- First Section -->
+							<section id="first" class="main special">
+								<header class="major">
+									<h2>Concerts</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<span class="icon solid major style1 fa-code"></span>
+										<h3>Bhaithak</h3>
+										<p>House concerts at students house every quater.</p>
+									</li>
+									<li>
+										<span class="icon major style3 fa-copy"></span>
+										<h3>Annual concerts</h3>
+										<p>Singers from all over the world travel to take part in the concert.</p>
+									</li>
+									<li>
+										<span class="icon major style5 fa-gem"></span>
+										<h3>Bhavatheerayana</h3>
+										<p>Bhavageeta concerts</p>
+									</li>
+									<li>
+										<span class="icon major style5 fa-gem"></span>
+										<h3>Abhang</h3>
+										<p>Music for the theater</p>
+									</li>
+								</ul>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
+
+						<!-- Second Section -->
+							<section id="second" class="main special">
+								<header class="major">
+									<h2>Testimony</h2>
+									<p>Student Testimony.</p>
+								</header>
+								<ul class="statistics">
+									<li class="style1">
+										<span class="icon solid fa-code-branch"></span>
+										<strong>5,120</strong> Etiam
+									</li>
+									<li class="style2">
+										<span class="icon fa-folder-open"></span>
+										<strong>8,192</strong> Magna
+									</li>
+									<li class="style3">
+										<span class="icon solid fa-signal"></span>
+										<strong>2,048</strong> Tempus
+									</li>
+									<li class="style4">
+										<span class="icon solid fa-laptop"></span>
+										<strong>4,096</strong> Aliquam
+									</li>
+									<li class="style5">
+										<span class="icon fa-gem"></span>
+										<strong>1,024</strong> Nullam
+									</li>
+								</ul>
+								<p class="content">					<footer class="major">
+									<ul class="actions special">
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
+
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<h2>Classes</h2>
+									<p>One on One classes and group classes.</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="generic.html" class="button primary">Enroll Now</a></li>
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Aliquam sed mauris</h2>
+							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Learn More</a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>Contact information</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>121 Homestead road Berwick &bull; Victoria, Melbourne 3806 &bull; Australia</dd>
+								<dt>Phone</dt>
+								<dd>+61 405 267416</dd>
+								<dt>Email</dt>
+								<dd><a href="#">contact@ranjithasuresh.com</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
