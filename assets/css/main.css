@@ -180,11 +180,6 @@ html {
     box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
 
 body {
     background-color: #3b3619;
@@ -3106,10 +3101,10 @@ body.is-preload #header.alt .logo {
 #nav.alt {
     position: fixed;
     top: 0;
-    padding: 0.5em 1em;
     background-color: rgba(247, 247, 247, 0.95);
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+    padding: 0.5em 0px;
     z-index: 10000;
 }
 
@@ -3435,7 +3430,7 @@ body.is-preload #header.alt .logo {
 
 @media screen and (max-width: 736px) {
     #main>.main {
-        padding: 3em 2em 1em 2em;
+        padding: 1em 2em 1em 2em;
     }
     #main>.main>.image.main:first-child {
         margin: -3em 0 2em -2em;
@@ -3689,7 +3684,7 @@ body.is-preload #header.alt .logo {
     /* Center vertically */
     background-color: #f8f8f8;
     /* Optional: background color for the nav */
-    padding: 10px 20px;
+    padding: 10px 0px;
     /* Add some padding for spacing */
 }
 
@@ -3702,7 +3697,7 @@ body.is-preload #header.alt .logo {
     /* Align links and logo to center */
     align-items: center;
     list-style: none;
-    padding: 0;
+    padding: 10px 0px;
     margin: 0;
 }
 
@@ -3721,3 +3716,63 @@ body.is-preload #header.alt .logo {
     height: 40px;
     width: auto;
 }
+
+/* Default menu styling */
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+/* Logo styling */
+#menu .logo {
+    margin-right: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #menu {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    #menu li {
+        display: block;
+        width: 100%;
+    }
+    #menu .logo {
+        display: none;
+    }
+    #menu li:first-child { /* Hides the Foundation link */
+        display: none;
+    }
+}
+
+#enroll-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #CA8911;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#enroll-button:hover {
+    background-color: #a76d02;
+    cursor: pointer;
+}
+
